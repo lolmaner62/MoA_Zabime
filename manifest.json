@@ -16,7 +16,7 @@
         "type": "image/png"
       }
     ],
-  
+    
     "_comment3": "URL adresa, na kterou se aplikace spustí",
     "start_url": "/index.html",          
   
