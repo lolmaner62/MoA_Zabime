@@ -9,20 +9,22 @@
     <link rel="manifest" href="manifest.json">
 </head>
 <body>
-    <form>
-        <h1>Kalkulator 3000</h1>
-        <label>Zadej cisla:</label>
-        <input id="cislo1"> 
-        <select  id="operace">
-            <option value="+">+</option>
-            <option value="-">-</option>
-            <option value="*">*</option>
-            <option value="/">/</option>
-        </select> 
-        <input id="cislo2">
-        
-        <button onclick="Work()">Vysledek</button>
-        <p id="Vysledek" ></p>
-    </form>
+     <form>
+        <div>
+            <label for="a">a:</label>
+            <input type="number" id="a" name="a">
+            <p>x^2</p>
+            <label for="b">b:</label>
+            <input type="number" id="b" name="b">
+            </div>
+            <div>
+            <p>x</p>
+            <label for="c">c:</label>
+            <input type="number" id="c" name="c">
+            </div>
+            <input type="button" value="Vypocitej" onclick="Calculate()">
+            <label id="vysledek" name="vysledek"></label>
+            <label id="vysledek2" name="vysledek2" ></label>
+     </form>
 </body>
 </html>
