@@ -19,10 +19,15 @@ function Calculate() {
     let disc = (b * b) - (4 * a * c);
     if (disc >= 0) {
         if (disc == 0) {
-            
+            res1 = (-b) / (2*a)
+            res1 = (-b) / (2*a)
         }
-        res1 = (-b + Math.sqrt(disc)) / (2*a)
-        res1 = (-b - Math.sqrt(disc)) / (2*a)
+        else
+        {
+            res1 = (-b + Math.sqrt(disc)) / (2*a)
+            res1 = (-b - Math.sqrt(disc)) / (2*a)
+        }
+        
     }
     else
     {
